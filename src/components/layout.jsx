@@ -1,8 +1,7 @@
-import React from "react";
+import { useSelector } from "react-redux";
 import { Outlet } from "react-router-dom";
 import Header from "./header";
 import CartTab from "./cartTab";
-import { useSelector } from "react-redux";
 
 const Layout = () => {
   const statusTabCart = useSelector((store) => store.cart.statusTab);

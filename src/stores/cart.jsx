@@ -5,6 +5,7 @@ const initialState = {
     : [],
   statusTab: false,
 };
+
 const cartSlice = createSlice({
   name: "cart",
   initialState,
@@ -38,5 +39,6 @@ const cartSlice = createSlice({
     },
   },
 });
+
 export const { addToCart, changeQuantity, toggleStatusTab } = cartSlice.actions;
 export default cartSlice.reducer;

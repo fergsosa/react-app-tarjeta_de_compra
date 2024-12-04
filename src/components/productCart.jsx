@@ -1,7 +1,6 @@
-import React from "react";
+import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import iconCart from "../assets/images/iconCart.png";
-import { useSelector, useDispatch } from "react-redux";
 import { addToCart } from "../stores/cart";
 
 const ProductCart = (props) => {

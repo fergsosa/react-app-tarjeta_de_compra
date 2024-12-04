@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import { products } from "../products";
 import { useDispatch } from "react-redux";
+import { useParams } from "react-router-dom";
 import { addToCart } from "../stores/cart";
+import { products } from "../products";
 
 const Detail = () => {
   const { slug } = useParams();
