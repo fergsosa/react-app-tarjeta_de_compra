@@ -8,11 +8,11 @@ import { store } from "./stores";
 import { BrowserRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename="/react-app-tarjeta_de_compra/">
-    <Provider store={store}>
-      <App />
-    </Provider>
-  </BrowserRouter>
+  // <BrowserRouter basename="/react-app-tarjeta_de_compra/">
+  <Provider store={store}>
+    <App />
+  </Provider>
+  // </BrowserRouter>
 );
 
 // Si quieres empezar a medir el rendimiento de tu aplicación, pasa una función

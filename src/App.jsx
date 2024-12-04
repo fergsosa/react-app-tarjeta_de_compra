@@ -6,7 +6,7 @@ import Detail from "./pages/detail";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-app-tarjeta_de_compra/">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
