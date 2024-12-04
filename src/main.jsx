@@ -5,11 +5,14 @@ import "./index.css";
 // import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import { store } from "./stores";
+import { BrowserRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
-  <Provider store={store}>
-    <App />
-  </Provider>
+  <BrowserRouter basename="/react-app-tarjeta_de_compra/">
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </BrowserRouter>
 );
 
 // Si quieres empezar a medir el rendimiento de tu aplicación, pasa una función
