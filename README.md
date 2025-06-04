@@ -24,4 +24,4 @@ Proyecto simple e intuitivo para aprender cómo funciona un carrito de compras b
 
 ## 🖥️ Capturas de pantalla
 
-![Capturas de pantalla](./images/tarjeta-de-compra.png)
+![Capturas de pantalla](./public/tarjeta-de-compra.png)
